@@ -80,6 +80,7 @@ conn.commit()
 
 count = 0
 
+# Map categories to businesses in a many-to-many database
 for line in document:
     count += 1
     print(count, 'stage 2') # Track progress 
